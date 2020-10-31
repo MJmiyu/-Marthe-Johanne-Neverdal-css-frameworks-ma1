@@ -1,0 +1,24 @@
+.box {
+  height: 264px;
+  border-radius: 15px;
+  background: getColor(beige-light);
+  margin: 20px 5px;
+  display: flex;
+  box-shadow: 0 2px 2px 2px #00000018;
+}
+
+.container {
+  margin: 0;
+}
+
+.white-background {
+  background-color: getColor(white);
+  border: solid 3px;
+  border-color: getColor(pink);
+}
+
+.pink-background {
+  background-color: getColor(pink);
+  border: solid 3px;
+  border-color: getColor(white);
+}

@@ -1,0 +1,17 @@
+$font-link: 'Archivo Narrow', sans-serif;
+$font-primary: 'Open Sans', sans-serif;
+
+$colors: (
+  black: #262626,
+  white: #ffffff,
+  grey-darkest: #6a6a6a,
+  grey-dark: #8d8d8d,
+  grey-light: #e2e2e2,
+  grey-lighter: #e5e5e5,
+  beige-light: #f4f3ee,
+  pink: #c32c72,
+  header-black: #463f3a,
+);
+@function getColor($color) {
+  @return map-get($colors, $color);
+}

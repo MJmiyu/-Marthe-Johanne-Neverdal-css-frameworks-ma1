@@ -1,0 +1,101 @@
+body {
+  background: #e5e5e5;
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background: #f4f3ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  color: #8d8d8d;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 15pt;
+}
+
+nav a ::visited {
+  text-decoration: none;
+}
+
+nav #active {
+  color: #c32c72;
+}
+
+nav .logo {
+  font-size: 36pt;
+  color: #262626;
+}
+
+footer {
+  font-size: 12pt;
+  background: #f4f3ee;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer * {
+  color: #8d8d8d;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+.box {
+  height: 264px;
+  border-radius: 15px;
+  background: #f4f3ee;
+  margin: 20px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 2px 2px 2px #00000018;
+          box-shadow: 0 2px 2px 2px #00000018;
+}
+
+.container {
+  margin: 0;
+}
+
+.white-background {
+  background-color: #ffffff;
+  border: solid 3px;
+  border-color: #c32c72;
+}
+
+.pink-background {
+  background-color: #c32c72;
+  border: solid 3px;
+  border-color: #ffffff;
+}
+
+h1 {
+  color: #463f3a;
+  text-align: center;
+  font-size: 34pt;
+}
+/*# sourceMappingURL=style.css.map */

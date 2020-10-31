@@ -1,0 +1,22 @@
+nav {
+  background: getColor(beige-light);
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: getColor(grey-dark);
+    font-family: $font-link;
+    font-size: 15pt;
+    ::visited {
+      text-decoration: none;
+    }
+  }
+
+  #active {
+    color: getColor(pink);
+  }
+  .logo {
+    font-size: 36pt;
+    color: getColor(black);
+  }
+}
